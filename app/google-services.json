@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389178738167",
+    "project_id": "uasmp-a0806",
+    "storage_bucket": "uasmp-a0806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389178738167:android:6212d53e9c31d3a8c6daf2",
+        "android_client_info": {
+          "package_name": "com.dewairtzadhany_201011400483.uts_aplikasiresepmasakan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389178738167-sde6hia1ahfufv9829gkeeau0dgg30ek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj68_di5Z90HYBkFJtT9xo6m9pWkqUnkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389178738167-sde6hia1ahfufv9829gkeeau0dgg30ek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

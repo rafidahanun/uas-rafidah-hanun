@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MieRebusActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nama_resep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resep Mie Rebus"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/bahan_resep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan-bahan:\n- Mie instan\n- Air secukupnya\n- Telur rebus\n- Bawang goreng\n- Seledri\n- Kecap manis"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/langkah_resep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah:\n1. Rebus mie instan dalam air mendidih hingga matang.\n2. Tiriskan mie instan dan beri air dingin agar tidak lengket.\n3. Siapkan mangkuk, letakkan mie rebus di dalamnya.\n4. Siram mie rebus dengan kuah rebusan mie instan.\n5. Tambahkan telur rebus, bawang goreng, dan seledri sebagai topping.\n6. Siram dengan kecap manis sesuai selera.\n7. Sajikan."
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Camera"
+            android:layout_marginTop="16dp"
+            android:onClick="openCameraActivity" />
+
+        <Button
+            android:id="@+id/button_maps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Maps"
+            android:layout_marginTop="16dp"
+            android:onClick="openMapsActivity" />
+
+
+    </LinearLayout>
+</ScrollView>

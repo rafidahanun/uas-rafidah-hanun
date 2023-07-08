@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MieGorengActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nama_resep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resep Mie Goreng"
+            android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Bahan-bahan:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="- 200 gram mie kuning"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- 2 butir telur"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/bahan_goreng_telur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- 2 buah bawang merah, diiris tipis"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/bahan_potong_potong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- 2 batang daun bawang, potong-potong"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cara membuat:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="1. Rebus mie kuning hingga matang, tiriskan dan sisihkan."
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Goreng telur hingga matang, angkat dan potong-potong."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/langkah_goreng_telur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Panaskan minyak dalam wajan, tumis bawang merah hingga harum."
+        android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/langkah_potong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Setelah itu masukkan potongan sosis dan ayam, goreng hingga matang."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/langkah_masukkan_mie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Masukkan mie yang sudah direbus, aduk hingga rata."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/langkah_tambahkan_bumbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Tambahkan kecap manis, garam, dan merica secukupnya, aduk rata."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/langkah_masukkan_telor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Masukkan telur yang sudah dikocok, aduk hingga rata dan matang."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/langkah_angkat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Angkat dan sajikan Mie Goreng Telur Panas dengan acar dan kerupuk."
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Camera"
+            android:layout_marginTop="16dp"
+            android:onClick="openCameraActivity" />
+
+        <Button
+            android:id="@+id/button_maps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Maps"
+            android:layout_marginTop="16dp"
+            android:onClick="openMapsActivity" />
+
+
+    </LinearLayout>
+
+</ScrollView>
